@@ -39,7 +39,7 @@ export function TaskProgress({ tasks }: TaskProgressProps) {
         className="bg-muted h-2 overflow-hidden rounded-full"
       >
         <div
-          className="bg-primary h-full rounded-full transition-[width] duration-300"
+          className="bg-progress h-full rounded-full transition-[width] duration-300"
           style={{ width: `${percent}%` }}
         />
       </div>
